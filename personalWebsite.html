@@ -1,0 +1,67 @@
+<!--Mark Collins-->
+<!--5/15/24-->
+<!--Personal Website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mark Collins</title>
+</head>
+<body>
+  <!--Header Div-->
+  <div class="header">
+    <h1 class="headerName">Mark Collins</h1>
+    <!--All links in header-->
+    <div class="headerLinks">
+      <!--Include links-->
+      <a href="https://github.com/markanthony5500">
+        <img class="gitImg" src="Images/github-mark.png" alt="GitHub Profile">
+      </a>
+    </div>
+    <!--Personal Contact-->
+    <div class="contact">
+      <p>Email: markanthony5500@gmail.com </p>
+      <p>Phone: <a class="erieAreaCode" onclick="erieFact()">814</a>-722-3400</p>
+    </div>
+  </div>
+
+  <!--Section1 holding my photo,quote, and about me-->
+  <div class="section1 borderBottom">
+    <div class="photo">
+        <img class="mark" src="Images/mark.jpg" alt="photoOfMark">
+        <!--Quote-->
+        <p>"If you don't take risks, then you can't create a future"<a  class="clickableName" onclick="onePieceFact()"> -Monkey D. Luffy</a></p>
+    </div>
+    <div class="aboutMe">
+        <h1 class="sectionTitle">Hi, I'm Mark!</h1>
+        <p>Hey there! I'm Mark, a passionate computer science student. As an Computer Science Major, I found a passion for coding and learning about the field. I now am looking to pursue a career in this vast field. Although my experience working in the field is currently little to none, I am extremely motivated to learn and grow through both work and self taught experiences. I am a team player and would love to work with others to achieve a common goal and to work on challenges together. I know that my enthusiasm for this field will take me far and allow me to work hard in this workspace.
+        </p>
+    </div>
+  </div>
+
+  <!--Section2 holding my work and hobbies info -->
+  <div class="section2">
+    <div class="workInfo">
+        <img id="iceCreamImg1" src="Images/iceCream1.png" alt="iceCream" onclick="changeIceCream(1)">
+        <img id="iceCreamImg2" src="Images/iceCream1.png" alt="iceCream" onclick="changeIceCream(2)">
+        <h1 class="sectionTitle">My Work</h1>
+        <p class="workParagraph">With five years of dedicated work at Cold Stone Creamery, I've learned many valuable skills throughout my journey, starting as a new employee at 15 to now serving as a general manager. In my current role, I prioritize ensuring customer satisfaction and creating a vibrant, enjoyable work environment where employees feel motivated and excited to be a part of the team. Additionally, I am committed to delivering products that exceed customer expectations. Through fun co-worker challanges and activities to deiligent managment I strive to increase sales by encouraging my crew to upsell product and ensure customers leave happy.
+        </p>
+    </div>
+    <img id="tower" src="Images/tower.jpg" alt="Tower">
+    <div class="hobbiesInfo">
+        <h1 class="sectionTitle">My Hobbies</h1>
+        <p>
+          Some of my favorite hobbies include spending time with friends, playing competitive games online, and making music. In high school, I dedicated much of my time to practicing trumpet for marching, concert, and jazz band. Outside of school, I enjoy hanging out with friends and family. One of my favorite activities with friends is going to the movies, especially if it's a Marvel film. I have been playing competitive games with a close group of online friends I've known for years. My favorite competitive games include Overwatch 2, Smite, and For Honor. 
+        </p>
+    </div>
+  </div>    
+<!--Footer holding fun fact counter-->
+  <div class="footer">
+    <h3 id="factCounter">Fun Facts Found: 0/3</h3> 
+  </div>
+</body>
+</html>
